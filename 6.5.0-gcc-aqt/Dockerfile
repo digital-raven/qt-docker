@@ -1,7 +1,7 @@
 FROM stateoftheartio/qt6:6.5-gcc-aqt
 MAINTAINER Raven <raven@rubicon.aleeas.com>
 
-# Root needs to perform these instals
+# Root needs to perform these installs
 USER root
 
 ARG AQT_VERSION="aqtinstall==3.1.4"
