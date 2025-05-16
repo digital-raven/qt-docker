@@ -16,15 +16,14 @@ I also felt some modifications were in order. Namely...
   are development containers I thought that was a bit odd not to do that.
 
 The directory structure of this repository mirrors that of the state-of-the-art's, and the versioning
-scheme of the unerlying containers is `<QT-version>-<My Version>`. Archived images for these releases
+scheme of the underlying containers is `<QT-version>-<My Version>`. Archived images for these releases
 are available from DockerHub.
 
 "My Version", in the above statement, refers to the additional modifications I make, and follows a scheme
 of `major-release.feature.fix`. The "feature" and "fix" fields will be updated if I add any new QT modules
 to the container or fix a bug.
 
-Full support for all versions of QT are not planned at this time. If, like me, you found state-of-the-art's
+Full support for all versions of QT is not planned at this time. If, like me, you found state-of-the-art's
 repository and were shocked to find the containers therein included no QT modules or the very convenient
-program, aqtinstall, used for their installation (and indeed central to the configuration of QT on those
-very containers), then you should be able to look at the Dockerfiles under these subdirectories and easily
-modify them for your needs.
+program, aqtinstall, used for their installation, then you should be able to look at the Dockerfiles under
+these subdirectories and easily modify them for your needs.
