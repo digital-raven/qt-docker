@@ -27,3 +27,6 @@ Full support for all versions of QT is not planned at this time. If, like me, yo
 repository and were shocked to find the containers therein included no QT modules or the very convenient
 program, aqtinstall, used for their installation, then you should be able to look at the Dockerfiles under
 these subdirectories and easily modify them for your needs.
+
+Also, despite my criticisms of state-of-the-art's implementation, I thank him for creating what he did.
+It was a useful starting point.
