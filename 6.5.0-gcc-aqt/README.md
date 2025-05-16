@@ -1,5 +1,3 @@
-`docker build -t $(cat VERSION) .`
-
 Here is an example command to build your QT project from the directory just above it.
 
 ```
