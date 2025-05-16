@@ -10,6 +10,7 @@ ARG QT_VERSION="6.5.0"
 
 RUN apt update
 RUN apt install -y git python3-pip libglib2.0-0
+RUN apt install -y libgl-dev libvulkan-dev
 
 RUN pip3 --no-cache-dir install ${AQT_VERSION}
 
