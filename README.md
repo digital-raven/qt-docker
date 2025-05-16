@@ -12,8 +12,8 @@ I also felt some modifications were in order. Namely...
   I think that was stupid so I've added it back in. It seems quite obvious to me that a QT developer
   would be interested in having access to aqt within their container since it was, personally, the
   first utility I attempted to reach for to pull in missing QT modules my project needed.
-- It also does not pre-install any additional, and quite useful, QT modules. Since these containers
-  are development containers I thought that was a bit odd not to do that.
+- It also does not pre-install any additional, and quite useful, QT modules. Since these are development
+  containers I found their absence inconvenient.
 
 The directory structure of this repository mirrors that of the state-of-the-art's, and the versioning
 scheme of the underlying containers is `<QT-version>-<My Version>`. Archived images for these releases
