@@ -1,1 +1,8 @@
-GPLv2
+The files within this repository are distributed under the GPLv2. This is done so
+any improvements made to repository are obligated to flow back to it.
+
+However the archived images built as a result of this repository and stored on
+DockerHub explicitly contain certain QT modules obtainable via the aqtinstall package,
+and the aqtinstall package itself.
+
+So keep in mind the licenses of those projects when distributing your own applications.
